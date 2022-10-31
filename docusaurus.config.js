@@ -9,7 +9,7 @@ const config = {
   title: 'Dynatrace Adoption Overview Extension',
   tagline: 'Reporting Dynatrace Key Metrics Easily',
   url: 'https://github.com',
-  baseUrl: '/d1-adoptionoverview-extension/',
+  baseUrl: '/dt-adoptionoverview-extension/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -18,7 +18,6 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nikhilgoenkatech',
   projectName: 'dt-adoptionoverview-extension',
-  deploymentBranch: 'main',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
