@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdt_adoptionoverview_extension=self.webpackChunkdt_adoptionoverview_extension||[]).push([[6025],{7246:e=>{e.exports=JSON.parse('{"permalink":"/d1-adoptionoverview-extension/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

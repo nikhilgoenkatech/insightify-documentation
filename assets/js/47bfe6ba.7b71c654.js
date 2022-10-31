@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdt_adoptionoverview_extension=self.webpackChunkdt_adoptionoverview_extension||[]).push([[3511],{9281:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/d1-adoptionoverview-extension/blog/tags/docusaurus","allTagsPath":"/d1-adoptionoverview-extension/blog/tags","count":4}')}}]);
