@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ### License and bill of materials
 
-Extension would lead to DDU consumption. A fully configured endpoint would consume **250 DDUs** a month for about **15 management zones and 10 host-group**. For more details on DDU consumption, refer to [help link](https://www.dynatrace.com/support/help/shortlink/metric-cost-calculation).
+Extension would lead to DDU consumption. A fully configured endpoint would consume **350 DDUs** a month for about **15 management zones and 10 host-group**. For more details on DDU consumption, refer to [help link](https://www.dynatrace.com/support/help/shortlink/metric-cost-calculation).
 
 ### How long does it take for data to reflect?
 

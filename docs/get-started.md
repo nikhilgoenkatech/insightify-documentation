@@ -37,7 +37,7 @@ profiles. etc.)
                       Replace abc with the tenant UUID for SaaS while for managed, configure the endpoint as `https://managed-server/e/environment-endpoint/api/v1`  
    **Tenant Token**: Token that will be used to pull the data from the configured tenant. Make sure your token has the following permissions:  
                      - Read problems (API v1)  
-                     - Access problem and event feed, metrics, and topology (API v1)   
+                     - Read problems (API v2)  
                      - User session query language (API v1)  
                      - CaptureRequestData (API v1)  
                      - Read metrics (API v2)  

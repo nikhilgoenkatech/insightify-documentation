@@ -9,7 +9,7 @@ const config = {
   title: "Health Extension",
   tagline: "Reporting Dynatrace Key Metrics Easily",
   url: 'https://github.com',
-  baseUrl: '/dt-adoptionoverview-extension/',
+  baseUrl: '/insightify-documentation/',
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nikhilgoenkatech',
-  projectName: 'dt-adoptionoverview-extension',
+  projectName: 'insightify-documentation',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -70,7 +70,7 @@ const config = {
             label: "Docs"
           },
           {
-            href: "https://github.com/nikhilgoenkatech/dt-adoptionoverview-extension",
+            href: "https://github.com/nikhilgoenkatech/insightify",
             label: "GitHub",
             position: "right"
           }

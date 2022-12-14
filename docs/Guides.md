@@ -9,8 +9,8 @@ sidebar_position: 2
 1. Within Dynatrace, navigate to **Settings >> Monitored technologies >> Custom extensions** tab  
    ![upload-extension](Upload_health_extension.png)
 
-2. Open `Dynatrace Adoption Overview Extension` and configure it.  
-   ![configure-extension](health_extension_endpoint_configuration.png)
+2. Open `Insightify` and configure it.  
+   ![configure-extension](extension-config-page.png)
 
 #### Configurables
 
@@ -20,8 +20,10 @@ sidebar_position: 2
 **Tenant Config Token** Token generated with permissions to ingest metrics, create dashboard.  
 **Capture consumption data per management zone** Flag to capture consumption data (Host Units, DEM) and slice it per management zone. Default value of the configuration is **No**.  
 **Capture host unit consumption data per host zone** Flag to capture Host Units and slice it as per host group. Default value of the configuration is **No**.  
-**Capture and report problem data** Flag to pull problem data and report data on problems in the Dynatrace Adoption Extension Dashboard/Device. Default value of the configuration is **Yes**.  
-**Capture and report feature adoption data** Flag to pull problem data and report data on Dynatrace adoption flag in the Dynatrace Adoption Extension Dashboard/Device. Default value of the configuration is **Yes**.  
+**Capture and report problem data** Flag to pull problem data and report data on problems in the Insightify Dashboard/Device. Default value of the configuration is **Yes**.  
+**Capture and report feature adoption data** Flag to pull problem data and report data on Dynatrace adoption flags in a dashboard named `Insightify Adoption Overview`. Default value of the configuration is **Yes**.  
+**Capture and report problem data per management** Flag to pull problem data and report data on problems per management zone in a dashboard named `Insightify Incident Report`. Default value of the configuration is **No**.  
+
 
 3. Once configured, successful extension start. It should display the Ok status.
 
@@ -29,28 +31,30 @@ sidebar_position: 2
 
 ### Look around
 
-1. Navigate to Technologies and find `Dynatrace Feature Adoption Metrics`  
+1. Navigate to Technologies and find metrics for your endpoint:  
    ![topology-view](topology_view_extension.png)
 
 2. The Group page lets you analyze the group and view the performance of its members.  
-   ![topology-view](compare_health_extension_endpoints.png)
+   ![topology-view](topology_view.png)
 
 3. Analyze various chart types on device page by navigating to the group instance (endpoint)  
    ![deep-dive](deep_dive.png)
 
-4. Lastly, a dashboard will be created for each of the endpoint for a quick view of each endpoint.  
-   ![dashboard-view-1](dashboard_view_1.png)  
-   ![dashboard-view-2](dashboard_view_2.png)
+4. Lastly, multiple dashboards will be created (depending on your configuration for the endpoint) for each of the endpoint for a quick view of each endpoint.  
+   ![dashboard-view-1](Adoption_Overview.gif)  
+
+   If you have enabled **Capture and report problem data per management zone**, an additional dashboard **Insightify: Incident Report: \<Endpoint-name\>** will be created.  
+   ![dashboard-view-2](Adoption_Overview.gif)  
+
 
 > Note: Consumption data per management-zone/host-group is available only on the dashboard view or under Data explorer.
 
 ### Additional use-cases
-
 Whilst the extension generates the metrics and plot these onto the dashboard, there are some other features that you can leverage by doing additional configuration
 
 #### Create Customized Benefits Valuation/Dashboard Reports  
 Using the metrics available within the extension, create **customised dashboards** for showcasing Benefits Relisation. For example, using the problems data I created a dashboard as below that provides quick sneak peak into different aspects of Problems generated, RCA available, MTTR when RCA is available, etc.  
-![benefits-realisation-rpt](benefit_realisation_report.gif)  
+![benefits-realisation-rpt](Benefits_Realisation_Report.gif)  
 
 #### Dashboard Reports
 
