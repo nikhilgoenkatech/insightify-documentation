@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdt_adoptionoverview_extension=self.webpackChunkdt_adoptionoverview_extension||[]).push([[194],{6366:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/dt-adoptionoverview-extension/blog/tags/hola","allTagsPath":"/dt-adoptionoverview-extension/blog/tags","count":1}')}}]);
