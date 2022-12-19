@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Health Extension",
+  title: "Insightify Extension",
   tagline: "Reporting Dynatrace Key Metrics Easily",
   url: 'https://github.com',
   baseUrl: '/insightify-documentation/',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Adoption Overview Extension",
+        title: "Insightify Extension",
         logo: {
           alt: "Dynatrace",
           src: "img/DT_Logo.svg"
@@ -79,7 +79,7 @@ const config = {
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Adoption Overview Extension. Built with Docusaurus.`
+        copyright: `Copyright © ${new Date().getFullYear()} Insightify Extension. Built with Docusaurus.`
       },
       prism: {
         theme: lightCodeTheme,
