@@ -9,7 +9,18 @@ sidebar_position: 4
 
 **Error**: This error suggests the extension is not unzipped within the ActiveGate folder, hence, the tenant is not able to configure it.  
 
-**Solution**: To fix the error, unzip the custom.remote.python.dt_health_report.zip folder in `plugin_deployment` directory (usually it is at `/opt/dynatrace/remotepluginmodule/plugin_deployment/`) location within your ActiveGate host. Once you unzip it, try to re-confiugre the endpoint within your tenanat.  
+**Solution**: To fix the error, follow the steps as below:  
+1. First upload the extension “custom.remote.python.insightify.zip” on the activeGate in “/opt/dynatrace/remotepluginmodule/plugin_deployment /” directory. (This is assuming you have the activeGate running from the default /opt/Dynatrace/gateway location)  
+2. Further, navigate to ““/opt/dynatrace/remotepluginmodule/plugin_deployment/” directory and run unzip command as below:  
+```  
+cd /opt/dynatrace/remotepluginmodule/plugin_deployment  
+unzip custom.remote.python.insightify.zip  
+```   
+This would unzip the file at the same location.  
+ 
+3. Lastly, proceed on Settings > Insightify > Endpoint that we configured yesterday & select the activeGate followed by “Update”.  
+![image](reconfigure.png)
+
 
 
 2. **Missing data**  

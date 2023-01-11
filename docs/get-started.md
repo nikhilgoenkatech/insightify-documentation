@@ -25,7 +25,7 @@ profiles. etc.)
 · **License consumption by host group:** This section will highlight the license utilization by host groups (once enabled).  
 
 ## Extension installation and configuration  
-1. Find the extension from [here](https://github.com/Dynatrace/Dynatrace-health-extension/custom.remote.python.dt_health_report.zip)  
+1. Find the extension from [here](https://github.com/Dynatrace/Insightify/blob/main/extension/custom.remote.python.insightify.zip)  
 2. Download to get the extension ZIP file. **Don't rename the file.**  
 3. Unzip the ZIP file to the `plugin_deployment` (found at `/opt/dynatrace/remotepluginmodule/plugin_deployment/`) directory of your ActiveGate host.  
 4. In the Dynatrace menu, go to **Settings > Monitored technologies > Custom extensions and select Upload Extension.**  
